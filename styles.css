@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.ribbon {
+    background-color: /* your random color here */;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.department-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.department-btn {
+    background-color: #007BFF; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.department-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.achievements {
+    display: none; /* Hidden by default */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.close-btn {
+    background-color: #dc3545; /* Close button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.close-btn:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
